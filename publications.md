@@ -1,7 +1,6 @@
 ---
 title: Publications
 permalink: /publications/
-eyebrow: Papers & preprints
 ---
 # Publications
 
@@ -83,7 +82,7 @@ Nicholas Brandt, Dennis Hofheinz, Julia Kastner, **Akin Ünal**
 
 *PhD thesis, ETH Zurich, 2024*
 
-[DBLP](https://dblp.org/rec/phd/basesearch/Unali24a)
+[DBLP](https://dblp.org/rec/phd/basesearch/Unali24a) · [ETH Zurich](https://www.research-collection.ethz.ch/entities/publication/0ba7aba0-555c-4979-9df4-853e20a16233)
 
 ## Preprints
 
