@@ -28,3 +28,8 @@ allow for proving and connecting typical phenomenons of the field.
 </div>
 
 </div>
+
+## Research Interests
+- Algebraic Cryptanalysis and its Theory
+- Lower Bounds in Idealized Group Models
+- Cryptanalysis on low-weight PRGs and Code-like Assumptions
