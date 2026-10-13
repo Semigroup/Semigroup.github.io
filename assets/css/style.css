@@ -36,9 +36,13 @@ footer p { margin: 0; }
   main { padding: 3rem 0; }
 }
 
-.profile-photo { width: min(26vw, 200px, 100%); margin: 0 0 2rem; }
+.profile-intro { display: grid; grid-template-columns: min(26%, 200px) minmax(0, 1fr); gap: clamp(1rem, 3vw, 2.5rem); align-items: start; }
+.profile-text { min-width: 0; }
+.profile-text > :first-child { margin-top: 0; }
+.profile-photo { width: 100%; margin: 0; }
 .profile-photo img { display: block; width: 100%; height: auto; border-radius: 6px; }
 .profile-photo figcaption { margin-top: .65rem; font-size: .75rem; line-height: 1.6; color: var(--muted); overflow-wrap: anywhere; }
 @media (max-width: 700px) {
+  .profile-intro { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; }
   .profile-photo { width: min(45vw, 180px, 100%); }
 }
