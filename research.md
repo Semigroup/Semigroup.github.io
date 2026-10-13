@@ -32,23 +32,23 @@ Selected Examples:
 ## Lattice-Based Cryptography
 With [Erkan Tairi](https://erkantairi.com/), I proved impossibility results for lattice-based
 functional encryption schemes 
-[eprint](https://eprint.iacr.org/2020/163),
-[eprint](https://eprint.iacr.org/2023/719).
+([eprint](https://eprint.iacr.org/2020/163),
+[eprint](https://eprint.iacr.org/2023/719)).
 
 With [Ivy K.Y. Woo](https://ivyw.ooo/) and [Chris Brzuska](https://www.aalto.fi/en/people/chris-brzuska),
 I broke the very popular private-coin version of the evasive LWE assumption 
-[eprint](https://eprint.iacr.org/2024/2000).
+([eprint](https://eprint.iacr.org/2024/2000)).
 
 ## Cryptanalysis of Lightweight Pseudorandom Number Generators
 I did some algebraic cryptanalysis
 on PRGs of low degree/locality 
-[eprint](https://eprint.iacr.org/2023/119),
-[eprint](https://eprint.iacr.org/2023/550).
+([eprint](https://eprint.iacr.org/2023/119),
+[eprint](https://eprint.iacr.org/2023/550)).
 
 With [Pierrick Méaux](https://pierrickmeaux.com/)
 and Antonio Giulio D’Antona, I attacked the popular
 class of THR-XOR PRGs and introduced the notion of common bias
-[eprint](https://eprint.iacr.org/2026/880).
+([eprint](https://eprint.iacr.org/2026/880)).
 
 ## Generic Group Lower Bounds
 I am interested in lower bounds for group-based
@@ -56,8 +56,9 @@ primitives in ideal models.
 [Julia Kastner](https://juliakastner.github.io/), [Nicholas Brandt](https://nicholasbrandt.de/),
 [Bogdan Ursu](https://bogdanbear.github.io/) and [Dennis Hofheinz](https://people.inf.ethz.ch/dhofheinz/)
 and I established lower bounds for VRFs and LTFs in the
-generic group model [eprint](https://eprint.iacr.org/2022/762),
-[eprint](https://eprint.iacr.org/2023/866).
+generic group model 
+([eprint](https://eprint.iacr.org/2022/762),
+[eprint](https://eprint.iacr.org/2023/866)).
 
 I also like to work on constructions in the generic group model
-[eprint](https://eprint.iacr.org/2025/1045).
+([eprint](https://eprint.iacr.org/2025/1045)).

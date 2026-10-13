@@ -24,8 +24,8 @@ navigation:
     url: /publications/
 #  - title: Teaching
 #    url: /teaching/
-  - title: CV
-    url: /cv/
+#  - title: CV
+#    url: /cv/
   - title: Contact
     url: /contact/
 exclude:
