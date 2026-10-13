@@ -1,6 +1,15 @@
 ---
 title: About
 ---
+<div class="profile-intro" markdown="1">
+
+<figure class="profile-photo">
+  <img src="{{ '/profile_pic.jpg' | relative_url }}" alt="Portrait of Akin Ünal">
+  <figcaption>Photo &amp; editing: <a href="https://www.instagram.com/mary.deweirdo.official/">@mary.deweirdo.official</a></figcaption>
+</figure>
+
+<div class="profile-text" markdown="1">
+
 # Akin Ünal
 
 <p class="lead" markdown="1">
@@ -15,3 +24,6 @@ but I also study cryptanalysis and cryptography in other areas
 In algebraic cryptanalysis, I strive for theoretical results that 
 allow for connecting and relating typical phenomenons of the field.
 
+</div>
+
+</div>
