@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' | escape }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.author.name | escape }}<span>{{ site.author.role | escape }}</span></a>
+      <nav aria-label="Main navigation">
+        {% for item in site.navigation %}
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | escape }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow | escape }}</p>{% endif %}
+      {{ content }}
+    </main>
+    <footer>
+      <p>{{ site.author.name | escape }} · {{ site.author.institution | escape }}</p>
+      <a href="mailto:{{ site.author.email | escape }}">{{ site.author.email | escape }}</a>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+---
+title: About
+eyebrow: Research · Teaching · Collaboration
+---
+# Your Name
 
-You can use the [editor on GitHub](https://github.com/Semigroup/Semigroup.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<p class="lead">I am a postdoctoral researcher in [your field] at [your institution]. I study [your central research question].</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My work connects **[research area A]** and **[research area B]** to understand [the problem you address]. I am particularly interested in [a concrete question or method].
 
-### Markdown
+<div class="actions">
+  <a class="button" href="{{ '/research/' | relative_url }}">Explore my research</a>
+  <a class="button secondary" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## About me
 
-```markdown
-Syntax highlighted code block
+[Add a short biography here: your current position, previous institutions, and what motivates your research. Aim for three or four sentences that someone outside your specialty can understand.]
 
-# Header 1
-## Header 2
-### Header 3
+## Research at a glance
 
-- Bulleted
-- List
+- **[Topic one]** — [One sentence explaining the question and why it matters.]
+- **[Topic two]** — [One sentence about your approach or contribution.]
+- **[Topic three]** — [One sentence about a current direction.]
 
-1. Numbered
-2. List
+## Selected work
 
-**Bold** and _Italic_ and `Code` text
+[Introduce one or two papers or projects you would like visitors to see first.]
 
-[Link](url) and ![Image](src)
-```
+[View publications →]({{ '/publications/' | relative_url }})
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Collaboration
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Semigroup/Semigroup.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I welcome conversations about [topics, methods, or potential collaborations]. [Contact me →]({{ '/contact/' | relative_url }})
