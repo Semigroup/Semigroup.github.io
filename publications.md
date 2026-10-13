@@ -1,6 +1,7 @@
 ---
 title: Publications
 permalink: /publications/
+page_class: publications
 ---
 # Publications
 

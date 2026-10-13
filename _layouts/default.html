@@ -19,7 +19,7 @@
         {% endfor %}
       </nav>
     </header>
-    <main id="main" tabindex="-1">
+    <main id="main" tabindex="-1"{% if page.page_class %} class="{{ page.page_class | escape }}"{% endif %}>
       {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow | escape }}</p>{% endif %}
       {{ content }}
     </main>

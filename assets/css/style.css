@@ -48,3 +48,7 @@ footer p { margin: 0; }
 }
 
 footer .legal-links { flex-basis: 100%; font-size: inherit; }
+
+/* Compact publication details; keep separation between entries. */
+.publications h3 { margin: 2rem 0 .5rem; }
+.publications p { margin: .25rem 0; line-height: 1.45; }
