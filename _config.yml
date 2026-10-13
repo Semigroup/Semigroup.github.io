@@ -1,13 +1,13 @@
-title: "Your Name"
-description: "Postdoctoral researcher in [your field] at [your institution]."
+title: "Akin Ünal"
+description: "Postdoctoral researcher, Algebraic Cryptanalysis, Institute of Science and Technology Austria"
 url: "https://semigroup.github.io"
 baseurl: ""
 lang: en
 author:
-  name: "Your Name"
+  name: "Akin Ünal"
   role: "Postdoctoral Researcher"
-  institution: "Your University"
-  email: "your.name@example.org"
+  institution: "Institute of Science and Technology Austria"
+  email: "Akin.Uenal@ist.ac.at"
 markdown: kramdown
 permalink: pretty
 defaults:
@@ -22,9 +22,11 @@ navigation:
     url: /research/
   - title: Publications
     url: /publications/
-  - title: Teaching
-    url: /teaching/
-  - title: CV & Contact
+#  - title: Teaching
+#    url: /teaching/
+  - title: CV
+    url: /cv/
+  - title: Contact
     url: /contact/
 exclude:
   - README.md
