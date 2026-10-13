@@ -46,3 +46,5 @@ footer p { margin: 0; }
   .profile-intro { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; }
   .profile-photo { width: min(45vw, 180px, 100%); }
 }
+
+footer .legal-links { flex-basis: 100%; font-size: inherit; }
