@@ -3,14 +3,14 @@ title: About
 ---
 # Akin Ünal
 
-<p class="lead">
+<p class="lead" markdown="1">
 Hi, I am a postdoctoral researcher at Institute of Science and Technology Austria
 in the group of [Krzysztof Pietrzak](https://ist.ac.at/en/research/pietrzak-group/).
 I did my phd at ETH Zurich under the supervision of [Dennis Hofheinz](https://foc.ethz.ch/).
 </p>
 
 My main research field is **Algebraic Cryptanalysis**,
-but also studied cryptanalysis and cryptography in other areas 
+but I also study cryptanalysis and cryptography in other areas 
 (experimental lattice-based stuff, generic group-based lower bounds, etc).
 In algebraic cryptanalysis, I strive for theoretical results that 
 allow for connecting and relating typical phenomenons of the field.
