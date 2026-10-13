@@ -36,13 +36,13 @@ footer p { margin: 0; }
   main { padding: 3rem 0; }
 }
 
-.profile-intro { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 2.5rem; align-items: start; }
+.profile-intro { display: grid; grid-template-columns: minmax(0, 1fr) min(26%, 200px); gap: clamp(1rem, 3vw, 2.5rem); align-items: start; }
 .profile-text { grid-column: 1; grid-row: 1; min-width: 0; }
 .profile-photo { grid-column: 2; grid-row: 1; margin: .5rem 0 0; min-width: 0; }
-.profile-photo img { display: block; width: 100%; height: auto; border-radius: 6px; }
+.profile-photo img { display: block; width: 100%; max-width: 200px; height: auto; border-radius: 6px; }
 .profile-photo figcaption { margin-top: .65rem; font-size: .75rem; line-height: 1.6; color: var(--muted); overflow-wrap: anywhere; }
 @media (max-width: 700px) {
   .profile-intro { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; }
-  .profile-photo { grid-column: 1; grid-row: 1; width: min(100%, 280px); margin: 0; }
+  .profile-photo { grid-column: 1; grid-row: 1; width: min(45vw, 180px, 100%); margin: 0; }
   .profile-text { grid-column: 1; grid-row: 2; }
 }
