@@ -26,7 +26,7 @@ li { margin-bottom: .6rem; }
 .button.secondary { background: transparent; color: var(--accent); }
 .note { color: var(--muted); border-left: 3px solid var(--line); padding-left: 1rem; font-size: .95rem; }
 hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
-footer { border-top: 1px solid var(--line); padding: 1.5rem 0 2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; color: var(--muted); font-size: .8rem; }
+footer { border-top: 1px solid var(--line); padding: 1.5rem 0 2rem; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: .5rem 2rem; color: var(--muted); font-size: .8rem; }
 footer p { margin: 0; }
 .skip-link { position: absolute; top: -100px; left: 1rem; padding: .5rem 1rem; background: var(--ink); color: var(--paper); z-index: 1; }
 .skip-link:focus { top: 1rem; }
@@ -47,7 +47,7 @@ footer p { margin: 0; }
   .profile-photo { width: min(45vw, 180px, 100%); }
 }
 
-footer .legal-links { flex-basis: 100%; font-size: inherit; }
+footer .legal-links { margin-left: auto; justify-content: flex-end; font-size: inherit; }
 
 /* Compact publication details; keep separation between entries. */
 .publications h3 { margin: 2rem 0 .5rem; }
