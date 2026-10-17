@@ -7,7 +7,7 @@ lang: de
 
 ## Medieninhaber und Betreiber
 
-**{{ site.author.name }}**
+Inhaber: {{ site.author.name }}
 
 Wohnort: {{ site.author.residence }}
 
