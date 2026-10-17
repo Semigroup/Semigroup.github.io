@@ -7,7 +7,9 @@ title: About
 
 <figure class="profile-photo">
   <img src="{{ '/profile_pic.jpg' | relative_url }}" alt="Portrait of Akin Ünal">
+  <!--
   <figcaption>Photo &amp; editing: <a href="https://www.instagram.com/mary.deweirdo.official/">@mary.deweirdo.official</a></figcaption>
+   -->
 </figure>
 
 <div class="profile-text" markdown="1">

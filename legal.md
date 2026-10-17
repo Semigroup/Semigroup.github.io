@@ -21,11 +21,6 @@ und ist kein offizieller Webauftritt des Institute of Science and Technology Aus
 
 Diese Angaben dienen der Offenlegung gemäß § 25 Mediengesetz.
 
-## Bildnachweis
-
-Profilfoto auf der Startseite — Foto und Bearbeitung:
-[@mary.deweirdo.official](https://www.instagram.com/mary.deweirdo.official/).
-
 ## Datenschutz
 
 Informationen zum Hosting und zur Verarbeitung personenbezogener Daten finden Sie

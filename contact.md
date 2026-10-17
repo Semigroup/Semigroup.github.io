@@ -4,6 +4,7 @@ permalink: /contact/
 ---
 # Contact
 
+**Name:** {{site.author.name}}
 **Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})  
 **Institution:** {{ site.author.institution }}
 
